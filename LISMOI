@@ -1,0 +1,46 @@
+  #####################
+ ## SCRIPT SKYCLEAR ##
+#####################
+
+### À PROPOS ###
+
+Script rédigé à l'origine pour faciliter la transition de filledou.skyblog.com à filledou.net (sous dotclear).
+
+Note : domaine filledou.net désormais inactif pour raison économiques.
+
+### DESCRIPTION ###
+
+Script de migration d'un site Skyblog vers une base de donnée DotClear.
+
+### PRÉ - REQUIS ###
+
+Pour faire fonctionner ce script vous aurez besoin de : 
+
+  - python2.6 et supérieur
+  - python-mysqldb
+  - beautifulsoup
+
+### UTILISATION ###
+
+Veillez à modifier les valeurs des variables suivantes : 
+
+  - pseudo
+  - pseudo_dotclear
+  - hote
+  - portacces
+  - utilisateur
+  - mot2passe
+  - base2donnees
+
+'utilisateur' et 'mot2passe' sont pour la base de données.
+
+### NOTES ###
+
+Ne fonctionne PAS dans les cas suivants (cas connus) :
+
+  - Titre comportant autre chose que du texte simple
+
+Non testé : 
+
+  - Billets contenant plusieurs images
+  - Billets contenant autre chose que du texte et des images
